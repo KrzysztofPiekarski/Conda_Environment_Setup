@@ -1,0 +1,36 @@
+name: name
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - plotly
+  - lxml
+  - faker
+  - pyarrow
+  - numpy
+  - ydata-profiling
+  - streamlit
+  - ffmpeg
+  - pydub
+  - qdrant-client
+  - openai
+  - python-dotenv
+  - boto3
+  - s3fs
+  - "pycaret[full]"
+  - pandera
+  - mlflow
+  - pip
+  - pip:
+      - instructor
+      - pydantic
+      - date-a-scientist
+      - streamlit-audiorecorder
+      - yfinance
+      - itables
+      - langfuse
+      - anthropic
